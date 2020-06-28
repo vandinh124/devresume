@@ -137,7 +137,7 @@ export const addExperience = (formData, history) => async (dispatch) => {
 			payload: res.data
 		});
 
-		dispatch(setAlert('Experience Added', 'Success'));
+		dispatch(setAlert('Experience Added', 'success'));
 		history.push('/dashboard');
 	} catch (err) {
 		const errors = err.response.data.errors;
@@ -169,7 +169,7 @@ export const addEducation = (formData, history) => async (dispatch) => {
 			payload: res.data
 		});
 
-		dispatch(setAlert('Education Added', 'Success'));
+		dispatch(setAlert('Education Added', 'success'));
 		history.push('/dashboard');
 	} catch (err) {
 		const errors = err.response.data.errors;
@@ -198,7 +198,7 @@ export const deleteExperience = (id) => async (dispatch) => {
 			payload: res.data
 		});
 
-		dispatch(setAlert('Experience Removed', 'Success'));
+		dispatch(setAlert('Experience Removed', 'success'));
 	} catch (err) {
 		dispatch({
 			type: PROFILE_ERROR,
@@ -217,7 +217,7 @@ export const deleteEducation = (id) => async (dispatch) => {
 			payload: res.data
 		});
 
-		dispatch(setAlert('Education Removed', 'Success'));
+		dispatch(setAlert('Education Removed', 'success'));
 	} catch (err) {
 		dispatch({
 			type: PROFILE_ERROR,
