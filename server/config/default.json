@@ -1,0 +1,7 @@
+{
+	"mongoURI": "mongodb+srv://vandinh124:VDpassword@devconnector-kkotd.mongodb.net/<dbname>?retryWrites=true&w=majority",
+	"jwtSecret": "really secret",
+	"githubClientId": "6f3483e311bc989cb22b",
+	"githubSecret": "14eb1e590b98100e9d9016c0464189782195beb6",
+	"githubToken": "dd347301ba9c66bcbf68a5b227269ce4de61e1b0"
+}
